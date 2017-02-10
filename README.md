@@ -1,7 +1,7 @@
 # ts-keycode-enum
 A TypeScript enum definition that maps human-friendly key names to JavaScript key codes
 
-<img src="./logo.jpg" />
+<img align="right" src="./logo.jpg" />
 
 ## Install
 
@@ -23,7 +23,7 @@ onKeyPress = (ev) => {
 }
 ```
 
-Me too.  With this module, you can do this instead:
+Me too.  With this module, you can do this instead in a TypeScript file:
 
 ```JavaScript
 onKeyPress = (ev) => {
@@ -48,6 +48,8 @@ You can now use a readable enum value in place of any raw keycodes throughout th
 ```JavaScript
 if (ev.which === Key.Escape) { ... }
 ```
+
+See [Key.enum.ts](./Key.enum.ts) for a complete list of available keys.
 
 ## Building
 
