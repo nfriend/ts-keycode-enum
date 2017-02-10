@@ -1,0 +1,35 @@
+{
+  "name": "ts-keycode-enum",
+  "version": "1.0.0",
+  "description": "A TypeScript enum definition that maps human-friendly key names to JavaScript key codes",
+  "main": "dist/js/Key.enum.js",
+  "types": "dist/declarations/Key.enum.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfriend/ts-keycode-enum.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "keycodes",
+    "key",
+    "enum",
+    "ts"
+  ],
+  "author": {
+    "name": "Nathan Friend",
+    "email": "hello@nathanfriend.io",
+    "url": "http://nathanfriend.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nfriend/ts-keycode-enum/issues"
+  },
+  "homepage": "https://github.com/nfriend/ts-keycode-enum#readme",
+  "devDependencies": {
+    "typescript": "^2.1.6"
+  }
+}
