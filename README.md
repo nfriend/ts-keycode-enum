@@ -23,7 +23,7 @@ onKeyPress = (ev) => {
 }
 ```
 
-Me too.  With this module, you can do this instead in a TypeScript file:
+Me too.  With this module, you can do this instead (in a TypeScript file):
 
 ```JavaScript
 onKeyPress = (ev) => {
@@ -37,7 +37,7 @@ onKeyPress = (ev) => {
 
 ## Usage
 
-To use this module, import the `Key` enum at the top of the file using the enum:
+To use this module, import the `Key` enum at the top of your TypeScript file using the enum:
 
 ```JavaScript
 import { Key } from 'ts-keycode-enum';
