@@ -1,7 +1,7 @@
 # ts-keycode-enum
 A TypeScript enum definition that maps human-friendly key names to JavaScript key codes
 
-<img align="right" src="./logo.jpg" />
+<img align="right" src="https://raw.githubusercontent.com/nfriend/ts-keycode-enum/master/logo.jpg" />
 
 ## Install
 
@@ -50,6 +50,15 @@ if (ev.which === Key.Escape) { ... }
 ```
 
 See [Key.enum.ts](./Key.enum.ts) for a complete list of available keys.
+
+In addition, to aid with readability, a number of enum values have aliases.  For example:
+
+```JavaScript
+// this  true - these values are equal
+Key.One === Key.ExclamationMark
+```
+
+Use whichever value makes more sense for readability.
 
 ## Building
 
