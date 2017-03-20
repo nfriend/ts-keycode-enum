@@ -2,7 +2,7 @@
     "compilerOptions": {
         "declaration": true,
         "declarationDir": "dist/declarations",
-        "module": "umd",
+        "module": "commonjs",
         "target": "es5",
         "outDir": "dist/js"
     },
