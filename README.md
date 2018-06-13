@@ -3,6 +3,10 @@ A TypeScript enum definition that maps human-friendly key names to JavaScript ke
 
 <img align="right" src="https://raw.githubusercontent.com/nfriend/ts-keycode-enum/master/logo.jpg" />
 
+## Important note
+
+[`event.which`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/which) and [`event.keyCode`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) have been deprecated.  It is recommended to instead use [`event.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) in combination with this very similar module: [ts-key-enum](https://github.com/nfriend/ts-key-enum).
+
 ## Install
 
 ```bash
