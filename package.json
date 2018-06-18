@@ -3,6 +3,9 @@
   "version": "1.0.5",
   "description": "A TypeScript enum definition that maps human-friendly key names to JavaScript key codes",
   "main": "dist/js/Key.enum.js",
+  "files": [
+    "dist/"
+  ],
   "types": "dist/declarations/Key.enum.d.ts",
   "scripts": {
     "build": "tsc"
@@ -30,6 +33,6 @@
   },
   "homepage": "https://github.com/nfriend/ts-keycode-enum#readme",
   "devDependencies": {
-    "typescript": "^2.2.1"
+    "typescript": "^2.9.2"
   }
 }
